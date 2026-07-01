@@ -40,6 +40,9 @@ nav ul a{
     text-decoration: none;
      color: #FFF8F0;
 }
+nav ul a:hover{
+    color:#D97706;
+}
 .logo-text h1{
    
     
@@ -165,6 +168,9 @@ text-align: center;
     box-shadow: 0 8px 20px rgba(0,0,0,0.08);
 transition: transform 0.3s ease;
 
+}
+.main-course-card:hover{
+    transform: translateY(-8px);
 }
 .main-course-card span{
     font-size: 30px;

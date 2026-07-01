@@ -40,6 +40,9 @@ nav ul a{
     text-decoration: none;
      color: #FFF8F0;
 }
+nav ul a:hover{
+    color:#D97706;
+}
 .logo-text h1{
    
     
@@ -98,6 +101,7 @@ button{
     margin-bottom: 20px;
 }
 .welcome-content p{
+    font-size: 25px;
     margin-top: 15px;
     line-height: 1.8;
 }
@@ -159,6 +163,7 @@ button{
 }
 
 .featured-card p{
+   
     line-height: 1.7;
     color: #555;
 }
@@ -173,6 +178,7 @@ button{
 }
 
 .featured-content p{
+    font-size: 25px;
     line-height: 1.8;
 }
 .featured-container button{
@@ -211,6 +217,7 @@ button{
 }
 
 .why-content p{
+    font-size: 25px;
     line-height: 1.8;
     margin: 0 auto 50px;
 }
@@ -235,6 +242,7 @@ button{
     margin-bottom: 10px;
 }
 .reviews-content p{
+    font-size: 25px;
 line-height: 1.8;
     margin: 0 auto 50px;
 }

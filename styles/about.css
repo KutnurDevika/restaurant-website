@@ -40,6 +40,9 @@ nav ul a{
     text-decoration: none;
      color: #FFF8F0;
 }
+nav ul a:hover{
+    color:#D97706;
+}
 .logo-text h1{
    
     
