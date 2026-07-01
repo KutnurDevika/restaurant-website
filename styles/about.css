@@ -220,6 +220,7 @@ margin-top: 20px;
 /*highlights section css*/
 
 #highlights{
+  
    padding: 100px 50px;
 }
 .highlights-content{
@@ -229,6 +230,8 @@ text-align: center;
 font-size: 50px;
 }
 .highlights-content p{
+text-align: center;
+min-width: 400px;
 font-size: 25px;
 }
 .highlights-container{
