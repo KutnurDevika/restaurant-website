@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff8f0;
+    color:#2C1810;
+    line-height: 1.7;
+}
+/*header css*/
+
+.logo img{
+    width: 70px;
+    height: 70px;
+    border-radius: 90px;
+}
+header{
+    padding: 30px;
+    background-color: #2C1810;
+    color: #FFF8F0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav ul{
+    display: flex;
+    gap: 40px;
+    color: #FFF8F0;
+    margin-bottom: 30px;
+    
+}
+nav ul li{
+    list-style: none;
+    
+}
+nav ul a{
+    font-size: 20px;
+    text-decoration: none;
+     color: #FFF8F0;
+}
+
+.logo-text h1{
+   
+    
+    font-size: 45px;
+}
+.logo-text p{
+    margin-top: 10px;
+    font-size: 20px;
+    color: #E8DCC8;
+}
+button{
+    background-color:#A93226;
+    padding:20px;
+    border-radius: 30px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+/*hero section*/
+
+#gallery-hero{
+    margin-top: 40px;
+    padding: 30px;
+    text-align: center;
+}
+.gallery-hero-container{
+display: flex;
+justify-content: space-around;
+gap: 30px;
+}
+.gallery-hero-content{
+    padding: 60px;
+    
+   
+}
+.gallery-hero-content h2{
+    font-size: 55px;
+    text-align: center;
+}
+.gallery-hero-content p{
+    margin-top: 20px;
+    font-size: 27px;
+    text-align: center;
+    width: 600px;
+}
+.gallery-hero-img img{
+width: 600px;
+border-radius: 30px;
+}
+
+/*food gallery section css*/
+
+.food-gallery{
+    padding: 80px 50px;
+}
+.food-gallery-content h3{
+    margin-top: 30px;
+    font-size: 45px;
+    text-align: center;
+}
+.food-gallery-content p{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.food-gallery-imgs{
+    
+    padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+    transition: transform 0.3s ease;
+    
+}
+
+
+.gallery-image{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-image:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* restaurent gallery section css*/
+
+#restaurant-gallery{
+    padding: 80px 50px ;
+}
+.restaurant-gallery-content h3{
+margin-top: 30px;
+    font-size: 45px;
+    text-align: center;
+}
+.restaurant-gallery-content p{
+font-size: 25px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.restaurant-gallery-imgs{
+padding: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+    transition: transform 0.3s ease;
+}
+
+/*footer section css*/
+footer{
+    
+    background-color: #3D1F14;
+    color: #FFFFFF;
+    padding: 70px 50px 30px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.footer-brand{
+    width: 350px;
+}
+
+.footer-brand h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.footer-brand p{
+    line-height: 1.8;
+    color: #EADFD7;
+}
+
+.footer-links h3,
+.footer-contact h3{
+    margin-bottom: 20px;
+}
+
+.footer-links ul,
+.footer-contact ul{
+    list-style: none;
+}
+
+.footer-links li,
+.footer-contact li{
+    margin-bottom: 12px;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: #EADFD7;
+}
+
+.footer-links a:hover{
+    color: #D97706;
+}
+.copyright{
+    border-top: 1px solid rgba(255,255,255,0.2);
+    margin-top: 50px;
+    padding-top: 25px;
+    text-align: center;
+    color: #EADFD7;
+}
+
